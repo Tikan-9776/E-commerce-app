@@ -4,7 +4,7 @@ public class Test {
 	public static void main(String[] args) {
 		BillCollector bc = new BillCollector();
           //injecting Creditcard obj into BillCollector(Setter Injection)
-		bc.setpayment(new CreditCardPayment());
+		bc.setpayment(new CreditCardPayment1());
 		bc.collectPayment(1500.00);
 	}
 }
